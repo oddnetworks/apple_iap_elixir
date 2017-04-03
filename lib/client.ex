@@ -1,10 +1,6 @@
 defmodule AppleIAP.Client do
   use HTTPoison.Base
 
-  defp process_url(url) do
-    url
-  end
-
   defp process_response_body(body) do
     body
     |> Poison.decode!
