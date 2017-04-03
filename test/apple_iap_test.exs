@@ -18,7 +18,19 @@ defmodule AppleIAPTest do
 
     response = %{
       "status" => "t_2",
-      "receipt" => "2012-07-22T14:59:50",
+      "receipt" => %{
+        "quantity" => 1,
+        "product_id" => "com.oddnetworks",
+        "transaction_id" => "t_1",
+        "original_transaction_id" => "ot_1",
+        "purchase_date" => "2012-07-22T14:59:50",
+        "original_purchase_date" => "2012-07-22T14:59:50",
+        "expires_date" => "2012-07-22T14:59:50",
+        "cancellation_date" => "2012-07-22T14:59:50",
+        "app_item_id" => "a_1",
+        "version_external_identifier" => "e_1",
+        "web_order_line_item_id" => "w_o_1"
+      },
       "latest_receipt" => "BA5E64",
       "latest_receipt_info" => %{
         "quantity" => 1,
@@ -64,7 +76,19 @@ defmodule AppleIAPTest do
 
     response = %{
       "status" => "t_2",
-      "receipt" => "2012-07-22T14:59:50",
+      "receipt" => %{
+        "quantity" => 1,
+        "product_id" => "com.oddnetworks",
+        "transaction_id" => "t_1",
+        "original_transaction_id" => "ot_1",
+        "purchase_date" => "2012-07-22T14:59:50",
+        "original_purchase_date" => "2012-07-22T14:59:50",
+        "expires_date" => "2012-07-22T14:59:50",
+        "cancellation_date" => "2012-07-22T14:59:50",
+        "app_item_id" => "a_1",
+        "version_external_identifier" => "e_1",
+        "web_order_line_item_id" => "w_o_1"
+      },
       "latest_receipt" => "BA5E64",
       "latest_receipt_info" => %{
         "quantity" => 1,
